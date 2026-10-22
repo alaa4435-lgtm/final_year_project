@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'welcome' => 'Welcome to Aurie',
+    'get_started' => 'Get Started',
+    'learn_build' => 'Learn & Build',
+    'dashboard' => 'Dashboard',
+    'profile' => 'Profile',
+    'settings' => 'Settings',
+    'home' => 'Home',
+    'projects' => 'Projects',
+    'new_project' => 'New Project',
+    'delete' => 'Delete',
+    'edit' => 'Edit',
+    'save' => 'Save',
+    'cancel' => 'Cancel',
+    'back' => 'Back',
+    'next' => 'Next',
+    'confirm' => 'Confirm',
+    'close' => 'Close',
+    'success' => 'Success',
+    'error' => 'Error',
+    'warning' => 'Warning',
+    'loading' => 'Loading...',
+    'no_data' => 'No data available',
+    'are_you_sure' => 'Are you sure?',
+    'platform_description' => 'Build your skills step by step with practical lessons, hands-on coding, and guidance whenever you need it.',
+];

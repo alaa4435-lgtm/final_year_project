@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'title' => 'Dashboard',
+    'my_projects' => 'My Projects',
+    'create_project' => 'Create Project',
+    'select_template' => 'Select Template',
+    'portfolio_website' => 'Portfolio Website',
+    'you_are_logged_in' => 'You are logged in!',
+    'landing_page' => 'Landing Page',
+    'in_progress' => 'In Progress',
+    'completed' => 'Completed',
+    'total_projects' => 'Total Projects',
+    'projects_completed' => 'Projects Completed',
+    'recent_projects' => 'Recent Projects',
+    'no_projects' => 'You have no projects yet. Create one to get started!',
+    'project_name' => 'Project Name',
+    'created_date' => 'Created Date',
+    'status' => 'Status',
+    'actions' => 'Actions',
+    'resume' => 'Resume',
+    'delete_project' => 'Delete Project',
+    'deploy' => 'Deploy Project',
+    'project_deleted' => 'Project deleted successfully',
+];

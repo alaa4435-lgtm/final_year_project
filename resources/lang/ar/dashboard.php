@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'title' => 'لوحة التحكم',
+    'my_projects' => 'مشاريعي',
+    'create_project' => 'إنشاء مشروع',
+    'select_template' => 'اختر قالب',
+    'portfolio_website' => 'موقع محفظة شخصية',
+    'landing_page' => 'صفحة هبوط',
+    'in_progress' => 'قيد المتابعة',
+    'completed' => 'مكتمل',
+    'you_are_logged_in' => 'أنت مسجل بنجاح',
+    'total_projects' => 'إجمالي المشاريع',
+    'projects_completed' => 'المشاريع المكتملة',
+    'recent_projects' => 'المشاريع الأخيرة',
+    'no_projects' => 'ليس لديك مشاريع حتى الآن. أنشئ واحداً للبدء!',
+    'project_name' => 'اسم المشروع',
+    'created_date' => 'تاريخ الإنشاء',
+    'status' => 'الحالة',
+    'actions' => 'الإجراءات',
+    'resume' => 'استئناف',
+    'delete_project' => 'حذف المشروع',
+    'deploy' => 'نشر المشروع',
+    'project_deleted' => 'تم حذف المشروع بنجاح',
+];
