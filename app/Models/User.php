@@ -11,9 +11,9 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use HasFactory, Notifiable;
 
-    protected $fillable = ['name','email','password','role','status','google_id','google_token','google_refresh_token','email_verified_at',];
+    protected $fillable = ['name', 'email', 'password'];
 
-    protected $hidden = ['password','remember_token','google_token','google_refresh_token',];
+    protected $hidden = ['password', 'remember_token'];
 
     protected function casts(): array
     {
@@ -23,8 +23,28 @@ class User extends Authenticatable implements MustVerifyEmail
         ];
     }
 
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    public function isLearner(): bool
+    {
+        return $this->role === 'learner';
+    }
+
+    public function isSuspended(): bool
+    {
+        return $this->status === 'suspended';
+    }
+
     public function activityLogs()
     {
         return $this->hasMany(ActivityLog::class);
+    }
+
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
     }
 }

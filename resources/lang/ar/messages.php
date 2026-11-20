@@ -1,11 +1,13 @@
 <?php
 
 return [
-    'welcome' => 'مرحبا بك في Aurie',
-    'get_started' => 'ابدأ الآن',
-    'learn_build' => 'تعلم و بناء',
+    'welcome' => 'مرحبًا بيك في Aurie',
+    'get_started' => 'ابدأ الان',
+    'learn_build' => 'تعلّم وطبّق',
     'dashboard' => 'لوحة التحكم',
     'profile' => 'الملف الشخصي',
+    'profile_title' => 'الملف الشخصي',
+    'profile_information' => 'معلومات الملف الشخصي',
     'settings' => 'الإعدادات',
     'home' => 'الرئيسية',
     'projects' => 'المشاريع',
@@ -18,11 +20,11 @@ return [
     'next' => 'التالي',
     'confirm' => 'تأكيد',
     'close' => 'إغلاق',
-    'success' => 'نجاح',
+    'success' => 'تم بنجاح',
     'error' => 'خطأ',
-    'warning' => 'تحذير',
+    'warning' => 'تنبيه',
     'loading' => 'جاري التحميل...',
-    'no_data' => 'لا توجد بيانات',
-    'are_you_sure' => 'هل أنت متأكد؟',
-    'platform_description' => 'ابني مهاراتك خطوة بخطوة مع دروس عملية وتطبيق عملي وإرشاد كلما احتجت إليه.',
+    'no_data' => 'لا يوجد بيانات',
+    'are_you_sure' => 'متأكد؟',
+    'platform_description' => 'طوّر مهاراتك خطوة بخطوة من خلال دروس عملية، وطبّق اللي تتعلم فيه، وتلقى المساعدة وقت ما تحتاج.',
 ];

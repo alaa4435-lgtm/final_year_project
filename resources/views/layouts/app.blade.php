@@ -40,5 +40,7 @@
                 {{ $slot }}
             </main>
         </div>
+        {{-- Footer --}}
+        <x-footer />
     </body>
 </html>

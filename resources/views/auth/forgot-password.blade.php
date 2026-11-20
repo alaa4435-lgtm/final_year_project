@@ -49,4 +49,3 @@
     </p>
 
 </x-guest-layout>
-```

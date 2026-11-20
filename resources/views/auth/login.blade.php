@@ -113,8 +113,6 @@
 
     </div>
 
-    <x-auth-terms />
-
     {{-- Sign In --}}
     <x-primary-button class="btn-primary mt-5 w-full justify-center rounded-lg py-3 text-sm font-semibold shadow-lg shadow-purple-900/10">
         {{ __('auth.sign_in') }}

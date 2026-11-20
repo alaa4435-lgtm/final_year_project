@@ -6,6 +6,8 @@ return [
     'learn_build' => 'Learn & Build',
     'dashboard' => 'Dashboard',
     'profile' => 'Profile',
+    'profile_title' => 'Profile',
+    'profile_information' => 'Profile Information',
     'settings' => 'Settings',
     'home' => 'Home',
     'projects' => 'Projects',

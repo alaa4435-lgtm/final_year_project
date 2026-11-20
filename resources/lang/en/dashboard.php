@@ -21,5 +21,8 @@ return [
     'resume' => 'Resume',
     'delete_project' => 'Delete Project',
     'deploy' => 'Deploy Project',
+    'recent' => 'Recent projects',
+    'empty' => 'You have no projects yet. Start by creating your first one.',
+
     'project_deleted' => 'Project deleted successfully',
 ];

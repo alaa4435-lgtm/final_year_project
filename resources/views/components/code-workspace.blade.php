@@ -14,7 +14,7 @@
 
 </div>
 
-<div class="grid grid-cols-2 min-h-[300px]">
+<div class="grid grid-cols-2 min-h-[220px]">
 
 {{-- Code half: HTML/CSS/JS phase tabs --}}
 <div class="border-e border-white/10">
@@ -40,7 +40,7 @@
 
 
     <div
-        class="px-5 py-6 text-xs sm:text-sm font-mono leading-7"
+        class="px-5 py-4 text-xs sm:text-sm font-mono leading-6"
         style="background: var(--cardBg);"
     >
 
@@ -117,9 +117,9 @@
 
 {{-- AI assistant strip --}}
 
-<div class="px-5 py-4 border-t border-white/10">
+<div class="px-5 py-3 border-t border-white/10">
 
-<div class="mt-3 flex items-center justify-end gap-2">
+<div class="flex items-center justify-end gap-2">
 
     <span
         class="text-[11px] font-medium px-3 py-1.5 rounded-lg text-gray-200 bg-white/10"

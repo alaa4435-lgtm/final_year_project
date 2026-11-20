@@ -18,4 +18,46 @@ return [
     'next_stage' => 'Next Stage',
     'congratulations' => 'Congratulations!',
     'all_stages_done' => 'You have completed all stages!',
+    'intro-web-dev' => [
+        'title' => 'Introduction to Web Development',
+        'description' => 'Learn the basics of HTML, CSS, and JavaScript before starting the project.',
+    ],
+
+    // Portfolio Stages
+    'navbar' => [
+        'title' => 'Navigation Bar',
+    ],
+
+    'hero' => [
+        'title' => 'Hero Section',
+    ],
+
+    'about' => [
+        'title' => 'About Section',
+    ],
+
+    'projects' => [
+        'title' => 'Projects',
+    ],
+
+    'contact' => [
+        'title' => 'Contact',
+    ],
+
+    // Landing Page Stages
+    'header' => [
+        'title' => 'Header',
+    ],
+
+    'features' => [
+        'title' => 'Features',
+    ],
+
+    'cta' => [
+        'title' => 'Call to Action',
+    ],
+
+    'footer' => [
+        'title' => 'Footer',
+    ],
 ];

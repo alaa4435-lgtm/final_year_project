@@ -9,6 +9,8 @@ enum ActivityAction: string
     case UserLogout = 'user_logout';
     case EmailVerified = 'email_verified';
     case PasswordReset = 'password_reset';
+    case ProjectCreated = 'project_created';
+    case ProjectDeleted = 'project_deleted';
 
     public function label(): string
     {
@@ -18,6 +20,9 @@ enum ActivityAction: string
             self::UserLogout => 'User Logout',
             self::EmailVerified => 'Email Verified',
             self::PasswordReset => 'Password Reset',
+            self::ProjectCreated => 'Project Created',
+            self::ProjectDeleted => 'Project Deleted',
+
         };
     }
 }
