@@ -1,58 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Interactive Educational Website Builder
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+An educational platform designed to help students and beginners learn web development through hands-on experience. The platform combines interactive learning with a visual website-building environment, making it easier for users to understand and practice HTML, CSS, and JavaScript.
 
-## About Laravel
+About the Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Learning web development can be challenging for beginners, especially when moving from theoretical concepts to writing actual code.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project aims to simplify that journey by providing an interactive environment where users can build, customize, and preview websites while developing their programming skills.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Instead of focusing only on traditional coding lessons, the platform encourages learning by doing.
 
-## Learning Laravel
+Key Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* Visual Website Builder: Create and customize web pages through a drag-and-drop interface.
+* Live Preview: See changes instantly while building a website.
+* Code Integration: Work with HTML, CSS, and JavaScript.
+* AI-Powered Assistant: Get guidance and assistance throughout the website-building process.
+* Beginner-Friendly Experience: Designed to make web development more approachable for students and newcomers.
+* Learning Support: Encourage practical learning and experimentation.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Technologies
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+* HTML
+* CSS
+* JavaScript
+* Laravel
+* React / Vite (if used in the current implementation)
 
-## Agentic Development
+Project Goals
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+* Make web development easier to understand for beginners.
+* Connect theoretical knowledge with practical application.
+* Encourage experimentation and independent learning.
+* Provide an accessible environment for students to create their first websites.
 
-```bash
-composer require laravel/boost --dev
+Target Audience
 
-php artisan boost:install
-```
+* University students.
+* Beginner web developers.
+* People interested in learning HTML, CSS, and JavaScript.
+* Anyone looking for a practical introduction to website development.
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Project Status
 
-## Contributing
+This project is being developed as part of a Software Engineering graduation project.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Features and functionality are subject to ongoing development and improvement.
 
-## Code of Conduct
+Future Improvements
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* Expand the AI learning assistant.
+* Introduce more interactive learning resources.
+* Improve the website editor and user experience.
+* Add more customization and publishing capabilities.
 
-## Security Vulnerabilities
+Contributing
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Suggestions, feedback, and contributions are welcome. The goal is to continuously improve the platform and make learning web development more accessible.
 
-## License
+License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+A license will be added once the project’s distribution terms are finalized.
