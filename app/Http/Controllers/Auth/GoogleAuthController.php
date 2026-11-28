@@ -26,6 +26,9 @@ class GoogleAuthController extends Controller
         try {
             $googleUser = Socialite::driver('google')->user();
         } catch (Exception $e) {
+            // يكتب الخطأ الحقيقي في storage/logs/laravel.log
+            report($e);
+
             return redirect()->route('login')->withErrors([
                 'email' => __('auth.google_failed'),
             ]);
@@ -70,9 +73,11 @@ class GoogleAuthController extends Controller
                 'email' => __('auth.account_suspended'),
             ]);
         }
+
         if ($isNewUser) {
             event(new Registered($user));
         }
+
         Auth::login($user);
         $request->session()->regenerate();
 

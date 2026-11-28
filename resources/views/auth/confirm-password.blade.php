@@ -13,7 +13,7 @@
 
         {{-- Password --}}
         <div>
-            <x-input-label for="password" :value="__('auth.password')" class="mb-1.5" />
+            <x-input-label for="password" :value="__('auth.password_label')" class="mb-1.5" />
 
             <x-auth-input
                 id="password"

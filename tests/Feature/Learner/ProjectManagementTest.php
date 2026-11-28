@@ -148,7 +148,7 @@ it('creates a project, initializes stages, and logs the activity', function () {
         ->and($project->status)->toBe('in_progress');
 
     $response->assertRedirect(route('projects.show', $project))
-        ->assertSessionHas('status', 'project-created');
+        ->assertSessionMissing('status');
 
     // Stage 0 العامة + 6 مراحل بورتفوليو = 7
     $progressRecords = StageProgress::where('project_id', $project->id)
@@ -276,7 +276,7 @@ it('allows a learner to delete their own project and logs the activity', functio
     $this->actingAs($learner)
         ->delete(route('projects.destroy', $project))
         ->assertRedirect(route('projects.index'))
-        ->assertSessionHas('status', 'project-deleted');
+        ->assertSessionMissing('status');
 
     $this->assertDatabaseMissing('projects', ['id' => $projectId]);
 

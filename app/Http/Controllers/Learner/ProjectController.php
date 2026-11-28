@@ -27,6 +27,10 @@ class ProjectController extends Controller
         $projects = $request->user()
             ->projects()
             ->with('template')
+            ->withCount([
+                'stageProgress',
+                'stageProgress as completed_stages_count' => fn ($query) => $query->where('status', 'completed'),
+            ])
             ->latest()
             ->get();
 
@@ -38,7 +42,7 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        $templates = Template::active()->get();
+        $templates = Template::active()->withCount('stages')->get();
 
         return view('learner.projects.create', compact('templates'));
     }
@@ -65,8 +69,7 @@ class ProjectController extends Controller
         }
 
         return redirect()
-            ->route('projects.show', $project)
-            ->with('status', 'project-created');
+            ->route('projects.show', $project);
     }
 
     /**
@@ -103,7 +106,6 @@ class ProjectController extends Controller
         );
 
         return redirect()
-            ->route('projects.index')
-            ->with('status', 'project-deleted');
+            ->route('projects.index');
     }
 }

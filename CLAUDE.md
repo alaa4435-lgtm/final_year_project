@@ -1,3 +1,8 @@
+# Project Workflow
+
+- Read `PROJECT_STATUS.md` before starting a task; don't re-explore the codebase — inspect only files relevant to the task.
+- Update `PROJECT_STATUS.md` after any significant task or architecture change, and at the end of each session.
+
 <laravel-boost-guidelines>
 === foundation rules ===
 

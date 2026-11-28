@@ -58,3 +58,27 @@ test('password can be reset with valid token', function () {
         return true;
     });
 });
+
+test('signed in users can reach the forgot password page from their profile', function () {
+    $user = User::factory()->create();
+
+    $this->actingAs($user)
+        ->get(route('profile.edit'))
+        ->assertOk()
+        ->assertSee(route('password.request'), false);
+
+    $this->actingAs($user)
+        ->get(route('password.request'))
+        ->assertOk()
+        ->assertSee($user->email);
+});
+
+test('signed in users can request a reset link', function () {
+    Notification::fake();
+
+    $user = User::factory()->create();
+
+    $this->actingAs($user)->post(route('password.email'), ['email' => $user->email]);
+
+    Notification::assertSentTo($user, ResetPassword::class);
+});

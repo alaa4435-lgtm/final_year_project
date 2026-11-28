@@ -12,9 +12,7 @@ use Illuminate\Auth\Events\Verified;
 
 class LogAuthenticationActivity
 {
-    public function __construct(protected ActivityLogService $activityLog)
-    {
-    }
+    public function __construct(protected ActivityLogService $activityLog) {}
 
     public function handleRegistered(Registered $event): void
     {

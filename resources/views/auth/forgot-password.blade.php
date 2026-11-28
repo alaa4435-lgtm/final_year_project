@@ -21,7 +21,7 @@
                 id="email"
                 type="email"
                 name="email"
-                :value="old('email')"
+                :value="old('email', auth()->user()?->email)"
                 required
                 autofocus
                 autocomplete="username"

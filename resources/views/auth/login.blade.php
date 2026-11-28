@@ -61,7 +61,7 @@
 
         <x-input-label
             for="password"
-            :value="__('auth.password')"
+            :value="__('auth.password_label')"
             class="mb-1.5"
         />
 
